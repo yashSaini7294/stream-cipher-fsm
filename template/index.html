@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stream Cipher Processor</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #f9f9f9;
+            padding: 2em;
+            max-width: 600px;
+            margin: auto;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input[type="file"],
+        input[type="number"],
+        button {
+            width: 100%;
+            padding: 0.75em;
+            margin-top: 1em;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        label {
+            margin-top: 1.5em;
+            display: block;
+            font-weight: bold;
+        }
+        .note {
+            font-size: 0.85em;
+            color: #777;
+            margin-top: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <h2>Stream Cipher Encrypt/Decrypt</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <label for="file">Upload your file:</label>
+        <input type="file" name="file" required>
+
+        <label for="seed">Enter seed (0–255):</label>
+        <input type="number" name="seed" min="0" max="255" placeholder="e.g., 145">
+
+        <label>
+            <input type="checkbox" name="generate_seed" value="true">
+            Generate a random seed instead
+        </label>
+        <div class="note">If selected, a seed will be randomly generated. Save it to decrypt later.</div>
+
+        <button type="submit">Process File</button>
+    </form>
+</body>
+</html>
