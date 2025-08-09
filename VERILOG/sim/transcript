@@ -1,0 +1,51 @@
+# Compile of prng.v was successful.
+# Compile of tb_encrypt.v was successful.
+# Compile of top_encrypt.v was successful.
+# Compile of top_encrypt_golden.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_encrypt
+# vsim -gui work.tb_encrypt 
+# Start time: 18:59:29 on Aug 04,2025
+# Loading work.tb_encrypt
+# Loading work.top_encrypt
+# Loading work.prng
+# Loading work.top_encrypt_golden
+run -all
+#                   24 test_count=          1  PASS: data_out_ref=e2, data_out=e2
+#                   27 test_count=          2  PASS: data_out_ref=19, data_out=19
+#                   30 test_count=          3  PASS: data_out_ref=99, data_out=99
+#                   33 test_count=          4  PASS: data_out_ref=f9, data_out=f9
+#                   36 test_count=          5  PASS: data_out_ref=d2, data_out=d2
+#                   39 test_count=          6  PASS: data_out_ref=15, data_out=15
+#                   42 test_count=          7  PASS: data_out_ref=aa, data_out=aa
+#                   45 test_count=          8  PASS: data_out_ref=be, data_out=be
+#                   48 test_count=          9  PASS: data_out_ref=5c, data_out=5c
+#                   51 test_count=         10  PASS: data_out_ref=0c, data_out=0c
+#                   54 test_count=         11  PASS: data_out_ref=92, data_out=92
+#                   57 test_count=         12  PASS: data_out_ref=9c, data_out=9c
+#                   60 test_count=         13  PASS: data_out_ref=b0, data_out=b0
+#                   63 test_count=         14  PASS: data_out_ref=d2, data_out=d2
+#                   66 test_count=         15  PASS: data_out_ref=1b, data_out=1b
+#                   69 test_count=         16  PASS: data_out_ref=dc, data_out=dc
+#                   94 test_count=         17  PASS: data_out_ref=52, data_out=52
+#                   97 test_count=         18  PASS: data_out_ref=65, data_out=65
+#                  100 test_count=         19  PASS: data_out_ref=64, data_out=64
+#                  103 test_count=         20  PASS: data_out_ref=20, data_out=20
+#                  106 test_count=         21  PASS: data_out_ref=61, data_out=61
+#                  109 test_count=         22  PASS: data_out_ref=70, data_out=70
+#                  112 test_count=         23  PASS: data_out_ref=70, data_out=70
+#                  115 test_count=         24  PASS: data_out_ref=6c, data_out=6c
+#                  118 test_count=         25  PASS: data_out_ref=65, data_out=65
+#                  121 test_count=         26  PASS: data_out_ref=2e, data_out=2e
+#                  121 TEST PASS: test_count=         26, success_count=         26, error_count=          0
+# ** Note: $stop    : C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/tb_encrypt.v(90)
+#    Time: 161 us  Iteration: 0  Instance: /tb_encrypt
+# Break in Module tb_encrypt at C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/tb_encrypt.v line 90
+add wave -position end sim:/tb_encrypt/*
+run -all
+# Can't move the Now cursor.
+add wave -position end sim:/tb_encrypt/ENCRYPT_MODULE/*
+# Break key hit
+# Break in Module tb_encrypt at C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/tb_encrypt.v line 45
+# End time: 19:10:12 on Aug 04,2025, Elapsed time: 0:10:43
+# Errors: 0, Warnings: 3

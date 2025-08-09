@@ -1,0 +1,29 @@
+C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/top_encrypt_golden.v {1 {vlog -work work -stats=none C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/top_encrypt_golden.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top_encrypt_golden
+
+Top level modules:
+	top_encrypt_golden
+
+} {} {}} C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/top_encrypt.v {1 {vlog -work work -stats=none C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/top_encrypt.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top_encrypt
+
+Top level modules:
+	top_encrypt
+
+} {} {}} C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/prng.v {1 {vlog -work work -stats=none C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/prng.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prng
+
+Top level modules:
+	prng
+
+} {} {}} C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/tb_encrypt.v {1 {vlog -work work -stats=none C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/tb_encrypt.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_encrypt
+
+Top level modules:
+	tb_encrypt
+
+} {} {}}

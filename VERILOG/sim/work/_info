@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1/modelsim_ase/win32aloem
+vprng
+Z0 !s110 1754314161
+!i10b 1
+!s100 z86DSP8CX0i0Td_L^=eDf3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IN]l0R`N8Y5DeCmlleYSdZ3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/sim
+w1753633972
+8C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/prng.v
+FC:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/prng.v
+!i122 23
+L0 2 23
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1754314161.000000
+!s107 C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/prng.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/prng.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vtb_encrypt
+R0
+!i10b 1
+!s100 2<dA]3CKG]7i0>H8<CJlK2
+R1
+IJ?O6c>aAWBPKIVQa30]io3
+R2
+R3
+w1754313906
+8C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/tb_encrypt.v
+FC:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/tb_encrypt.v
+!i122 24
+L0 2 131
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/tb_encrypt.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/tb_encrypt.v|
+!i113 1
+R6
+R7
+vtop_encrypt
+R0
+!i10b 1
+!s100 h0Y8=D8o36[m2^f@8lz:O0
+R1
+IG]h7L?N61;iSk6<iK2[Td1
+R2
+R3
+w1753633974
+8C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/top_encrypt.v
+FC:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/top_encrypt.v
+!i122 25
+L0 2 42
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/top_encrypt.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/top_encrypt.v|
+!i113 1
+R6
+R7
+vtop_encrypt_golden
+R0
+!i10b 1
+!s100 Bk@U6:BM@=GAEkXY=kbRE0
+R1
+IbNndWM?`8IQOU19>@5PLO3
+R2
+R3
+w1753633985
+8C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/top_encrypt_golden.v
+FC:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/top_encrypt_golden.v
+!i122 26
+L0 2 48
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/top_encrypt_golden.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/277sa/OneDrive/Desktop/stream-cipher-fsm/VERILOG/top_encrypt_golden.v|
+!i113 1
+R6
+R7

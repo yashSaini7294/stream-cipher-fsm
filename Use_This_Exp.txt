@@ -1,0 +1,10 @@
+Upload this text file for encryption!!
+This file will be encrypted using an LFSR-based FSM.
+If you can read this after decryption, then the system works!
+
+NOTE: 
+After decryption, the output file will still have the .enc extension.
+➤ To properly view or use the file after decryption, change the extension back to its original format (e.g., .txt, .pdf, .jpg, etc.).
+
+To successfully decrypt a file, you must use the exact same seed that was used during encryption.
+➤ If the wrong seed is provided, the output will be corrupted or unreadable.
